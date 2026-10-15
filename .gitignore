@@ -1,0 +1,20 @@
+# Target build artifacts
+target/
+*.war
+*.class
+
+# Embedded local server tools (Tomcat, Maven binaries)
+tools/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Logs & temp files
+*.log
+*.tmp
+temp/
