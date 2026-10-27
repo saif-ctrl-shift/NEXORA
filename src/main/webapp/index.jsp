@@ -19,27 +19,20 @@
      HERO SECTION (STRICTLY CENTERED, PREMIUM COLLEGE-TECH)
      ======================================================================= -->
 <section class="hero-section">
-    <!-- Hero Logo & Nexora Brand Identifier -->
-    <div class="hero-brand-badge-wrapper" style="display: flex; justify-content: center; align-items: center; margin-bottom: 22px;">
-        <div class="hero-brand-badge" style="display: inline-flex; align-items: center; gap: 14px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(0, 229, 255, 0.35); padding: 8px 24px 8px 12px; border-radius: 50px; backdrop-filter: blur(10px); box-shadow: 0 4px 20px rgba(0, 229, 255, 0.12);">
-            <div style="background: #ffffff; border-radius: 50%; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.3); flex-shrink: 0;">
-                <img src="<%= request.getContextPath() %>/images/college-logo.png" alt="MHSSCE College Logo" style="width: 36px; height: 36px; object-fit: contain;">
-            </div>
-            <div style="display: flex; flex-direction: column; text-align: left;">
-                <span style="font-size: 1.45rem; font-weight: 800; letter-spacing: 2px; color: #ffffff; line-height: 1.1; font-family: 'Plus Jakarta Sans', sans-serif;">
-                    NEXORA
-                </span>
-                <span style="font-size: 0.72rem; font-weight: 600; color: var(--accent-cyan, #00E5FF); letter-spacing: 0.8px; text-transform: uppercase;">
-                    M.H. Saboo Siddik College of Engineering
-                </span>
-            </div>
+    <!-- Zoomed NEXORA Brand Logo Showcase -->
+    <div class="hero-logo-showcase" style="display: flex; justify-content: center; align-items: center; margin-bottom: 24px;">
+        <div style="position: relative; display: inline-block;">
+            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 340px; height: 180px; background: radial-gradient(circle, rgba(255, 179, 0, 0.25) 0%, rgba(255, 107, 0, 0.08) 55%, transparent 75%); filter: blur(32px); pointer-events: none; border-radius: 50%;"></div>
+            <img src="<%= request.getContextPath() %>/images/nexora-full-logo.png" alt="NEXORA – Managing Events, Building Opportunities" style="height: 150px; width: auto; max-width: 90vw; object-fit: contain; filter: drop-shadow(0 10px 32px rgba(255, 179, 0, 0.38)); position: relative; z-index: 1;">
         </div>
     </div>
 
-    <!-- Small supporting label/badge -->
-    <div class="hero-badge-container">
-        <div class="hero-college-badge">
-            🏛️ <span>Centralized Event Portal</span> • Mumbai
+    <!-- College Affiliation Label / Badge -->
+    <div class="hero-badge-container" style="margin-bottom: 24px;">
+        <div class="hero-college-badge" style="display: inline-flex; align-items: center; gap: 10px; background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.1); padding: 7px 18px; border-radius: 40px;">
+            <img src="<%= request.getContextPath() %>/images/college-logo.png" alt="MHSSCE" style="height: 20px; width: auto; border-radius: 2px; vertical-align: middle; background: #ffffff; padding: 1px;">
+            <span style="color: var(--text-white); font-weight: 600;">M.H. Saboo Siddik College of Engineering</span>
+            <span style="color: var(--accent-cyan); font-weight: 700;">• Mumbai</span>
         </div>
     </div>
 
