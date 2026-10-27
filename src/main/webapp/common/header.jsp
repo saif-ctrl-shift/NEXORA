@@ -24,6 +24,10 @@
 <nav class="navbar">
     <div class="nav-container">
         <a href="<%= request.getContextPath() %>/" class="brand-logo" style="display: inline-flex; align-items: center; gap: 12px; text-decoration: none;">
+            <span style="background: #ffffff; border-radius: 8px; padding: 3px 5px; display: inline-flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(0,0,0,0.4); border: 1px solid rgba(255, 255, 255, 0.2); flex-shrink: 0;">
+                <img src="<%= request.getContextPath() %>/images/college-logo.png" alt="MHSSCE College Emblem" style="height: 38px; width: auto; object-fit: contain;">
+            </span>
+            <span style="width: 1px; height: 32px; background: rgba(255, 255, 255, 0.15); margin: 0 2px;"></span>
             <img src="<%= request.getContextPath() %>/images/nexora-icon.png" alt="NEXORA Logo" style="height: 42px; width: auto; object-fit: contain; filter: drop-shadow(0 2px 10px rgba(255, 179, 0, 0.45));">
             <span style="display: inline-flex; flex-direction: column;">
                 <span style="font-size: 1.35rem; font-weight: 900; letter-spacing: 2px; line-height: 1; color: #ffffff;">NEXORA</span>
