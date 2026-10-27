@@ -4,9 +4,8 @@
 -- College: M.H. Saboo Siddik College of Engineering, Mumbai
 -- =======================================================
 
-DROP DATABASE IF EXISTS nexora_db;
-CREATE DATABASE nexora_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE nexora_db;
+CREATE DATABASE IF NOT EXISTS nexora CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE nexora;
 
 -- -------------------------------------------------------
 -- Table 1: users

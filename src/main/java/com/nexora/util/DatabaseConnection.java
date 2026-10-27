@@ -10,7 +10,7 @@ import java.util.Properties;
  * Reusable DatabaseConnection utility for NEXORA College Event Management System.
  * 
  * Default Configuration:
- *   Database: nexora_db
+ *   Database: nexora (or nexora_db)
  *   Host:     localhost
  *   Port:     3306
  *   User:     root
@@ -23,7 +23,7 @@ import java.util.Properties;
  */
 public class DatabaseConnection {
 
-    private static String dbUrl = "jdbc:mysql://localhost:3306/nexora_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&characterEncoding=UTF-8";
+    private static String dbUrl = "jdbc:mysql://localhost:3306/nexora?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&characterEncoding=UTF-8";
     private static String dbUser = "root";
     private static String dbPassword = "root";
 
