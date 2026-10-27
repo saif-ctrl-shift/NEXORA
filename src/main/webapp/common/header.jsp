@@ -23,10 +23,14 @@
 <body>
 <nav class="navbar">
     <div class="nav-container">
-        <a href="<%= request.getContextPath() %>/" class="brand-logo">
-            <span class="brand-dot"></span>
-            NEXORA
-            <span class="brand-college-tag">MHSSCE Mumbai</span>
+        <a href="<%= request.getContextPath() %>/" class="brand-logo" style="display: inline-flex; align-items: center; gap: 10px;">
+            <span style="background: #ffffff; border-radius: 6px; padding: 2px 4px; display: inline-flex; align-items: center; justify-content: center; box-shadow: 0 1px 4px rgba(0,0,0,0.3); flex-shrink: 0;">
+                <img src="<%= request.getContextPath() %>/images/college-logo.png" alt="Logo" style="height: 24px; width: auto; object-fit: contain;">
+            </span>
+            <span style="display: inline-flex; flex-direction: column;">
+                <span style="font-size: 1.25rem; font-weight: 800; letter-spacing: 1.5px; line-height: 1; color: #ffffff;">NEXORA</span>
+                <span class="brand-college-tag" style="font-size: 0.68rem; opacity: 0.85;">MHSSCE Mumbai</span>
+            </span>
         </a>
 
         <ul class="nav-links">
